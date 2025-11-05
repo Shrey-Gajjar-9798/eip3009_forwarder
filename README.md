@@ -255,3 +255,7 @@ This software is provided for educational and experimental purposes. Smart contr
 6. **No Liability**: The authors, contributors, and associated parties shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising from the use of this software.
 
 **ALWAYS CONDUCT THOROUGH TESTING AND SECURITY AUDITS BEFORE DEPLOYING TO MAINNET OR HANDLING REAL VALUE.**
+
+# success tx:
+
+### https://sepolia.basescan.org/tx/0x455c45c905c9fa93b79417166bdd48cc012513e6ac19a195d62a871b70608139
