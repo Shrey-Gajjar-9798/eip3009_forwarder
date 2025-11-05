@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 import {Test} from "forge-std/Test.sol";
 import {EIP3009Forwarder} from "../src/EIP3009Forwarder.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {console} from "forge-std/console.sol";
 
 /**
  * @notice A mock ERC20 token for testing purposes.
@@ -85,6 +86,8 @@ contract EIP3009ForwarderTest is Test {
 
         // 4. Get the domain separator
         DOMAIN_SEPARATOR = forwarder.DOMAIN_SEPARATOR();
+
+        console.log("DOMAIN_SEPARATOR: %s","DOMAIN_SEPARATOR");
 
         // 5. Fund Alice's account
         token.mint(alice, INITIAL_MINT_AMOUNT);
